@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <style>
+        div.column {
+            margin: 98px 98px 0px 98px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 180px;
+            padding: 15px;
+        }
+
+        A div.column:hover {
+            border: 1px solid #777;
+        }
+
+        div.column img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+        @media screen and (max-width:600px) {
+            .column {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="header">
+        <h1>En Çok Satan Kitaplar</h1>
+    </div>
+
+    <div class="topnav center">
+        <a href="index.html">Anasayfa</a>
+        <a href="books.html">Kitaplar</a>
+        <a href="about.html">Hakkımızda</a>
+    </div>
+    <div class="row">
+        <div class="column">
+            <a target="_blank" href="images/dune.jpg">
+                <img src="images/dune.jpg" alt="Dune" width="600" height="400">
+            </a>
+            <div class="desc">Dune</div>
+
+        </div>
+        <div class="column">
+            <a target="_blank" href="images/hayvanciftligi.jpg">
+                <img src="images/hayvanciftligi.jpg" alt="Hayvan Çiftliği" width="600" height="400">
+            </a>
+            <div class="desc">Hayvan Çiftliği</div>
+        </div>
+        <div class="column">
+            <a target="_blank" href="images/kirke.jpg">
+                <img src="images/kirke.jpg" alt="Kirke" width="600" height="400">
+            </a>
+            <div class="desc">Kirke</div>
+        </div>
+        <div class="column">
+            <a target="_blank" href="images/sekerportakali.jpg">
+                <img src="images/sekerportakali.jpg" alt="Şeker Portakalı" width="600" height="400">
+            </a>
+            <div class="desc">Şeker Portakalı</div>
+        </div>
+        <div class="column">
+            <a target="_blank" href="images/simyacı.jpg">
+                <img src="images/simyacı.jpg" alt="Simyacı" width="600" height="400">
+            </a>
+            <div class="desc">Simyacı</div>
+        </div>
+
+    </div>
+</body>
+
+</html>
